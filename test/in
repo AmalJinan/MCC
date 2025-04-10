@@ -1,0 +1,15 @@
+print("=== Character Creation ===")
+print("Welcome to the Python Adventure Game!")
+print("Let's create your character...\n")
+
+# Get character details
+name = input("What is your character's name? ")
+age = int(input("How old is your character? "))
+character_class = input("What is your character's class? (Warrior, Mage, or Rogue) ")
+
+# Display character summary
+print("\n=== Character Summary ===")
+print("Name:", name)
+print("Age:", age)
+print("Class:", character_class)
+print("\nYour adventure begins...")
