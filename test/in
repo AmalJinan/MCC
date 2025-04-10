@@ -6,10 +6,13 @@ print("Let's create your character...\n")
 name = input("What is your character's name? ")
 age = int(input("How old is your character? "))
 character_class = input("What is your character's class? (Warrior, Mage, or Rogue) ")
+character_weapon = input("What is your character's weapon? (sword, axe, or bow) ")
 
 # Display character summary
 print("\n=== Character Summary ===")
 print("Name:", name)
 print("Age:", age)
 print("Class:", character_class)
+print("weapon:", character_weapon)
+
 print("\nYour adventure begins...")
